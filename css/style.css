@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#banner{
+    background: url(../img/weather.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.title{
+    font-size: 90px;
+    cursor: default;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0.8rem 1.5rem;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: brown;
+    transition: 0.4s;
+}
+
+.content{
+    flex-grow: 1;
+    padding: 15rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+}
+
+span{
+    color: red;
+    font-size: 100px;
+}
+
+.social{
+    margin-bottom: -50rem;
+}
+
+.social img{
+    margin-left: 45rem;
+    width: 2.5rem;
+    transition: 0.4s;
+}
+
+.social img:hover{
+    transform: scale(2.3);
+}
+
+.sec2{
+    background-color: white;
+}
+
+.container-images{
+    letter-spacing: 20px;
+}
+.gt1{
+    width: 215px;
+    height: 200px;
+    margin-left: 24rem;
+}
+
+.gt2{
+    width: 215px;
+    height: 200px;
+}
+
+.gt3{
+    width: 300px;
+    height: 200px;
+}
+
+.footer{
+    font-size: 30px;
+    text-align: center;
+}
